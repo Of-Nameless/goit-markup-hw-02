@@ -15,6 +15,7 @@ body {
   line-height: 1.71;
 
   color: var(--primary-text-color);
+  background-color: var(--primary-bcg-color);
 }
 
 .list {
@@ -147,6 +148,10 @@ body {
 }
 
 /* team */
+
+.team {
+  background-color: var(--secondary-bcg-color);
+}
 
 .team-title {
   font-weight: 500;
