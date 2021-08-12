@@ -10,8 +10,7 @@
 }
 
 body {
-  font-family: Roboto;
-  font-weight: 400;
+  font-family: Roboto, sans-serif;
   font-size: 14px;
   line-height: 1.71;
 
@@ -51,7 +50,7 @@ body {
   text-decoration: none;
 }
 
-.link {
+.site-link {
   font-weight: 500;
   line-height: 1.14;
 
@@ -60,12 +59,12 @@ body {
   text-decoration: none;
 }
 
-.link:hover,
-.link:focus {
+.site-link:hover,
+.site-link:focus {
   color: var(--accent-color);
 }
 
-.contacts-link {
+.contact-link {
   font-weight: 500;
   line-height: 1.14;
   text-decoration: none;
@@ -73,8 +72,8 @@ body {
   color: inherit;
 }
 
-.contacts-link:focus,
-.contacts-link:hover {
+.contact-link:focus,
+.contact-link:hover {
   color: var(--accent-color);
 }
 
@@ -93,6 +92,18 @@ body {
   color: var(--primary-white-color);
 }
 
+.hero-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  text-align: center;
+
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+
+  cursor: pointer;
+}
+
 /* portfolio */
 
 .card-title {
@@ -101,6 +112,24 @@ body {
   line-height: 2;
 
   color: var(--title-color);
+}
+
+.filter-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+
+  color: var(--title-color);
+  background-color: var(--secondary-bcg-color);
+
+  cursor: pointer;
+}
+
+.filter-button:focus,
+.filter-button:hover {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
 }
 
 /* details */
@@ -161,36 +190,4 @@ body {
 .link-footer:hover,
 .link-footer:focus {
   color: var(--accent-color);
-}
-
-/* buttons */
-
-.button-primary {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.875;
-  text-align: center;
-
-  color: var(--primary-white-color);
-  background-color: var(--accent-color);
-
-  cursor: pointer;
-}
-
-.button-secondary {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  text-align: center;
-
-  color: var(--title-color);
-  background-color: var(--secondary-bcg-color);
-
-  cursor: pointer;
-}
-
-.button-secondary:focus,
-.button-secondary:hover {
-  color: var(--primary-white-color);
-  background-color: var(--accent-color);
 }
