@@ -78,6 +78,10 @@ body {
   color: var(--accent-color);
 }
 
+.current {
+  color: var(--accent-color);
+}
+
 /* hero */
 
 .hero {
@@ -181,6 +185,10 @@ body {
   color: var(--primary-white-color);
 
   text-decoration: none;
+}
+
+.address {
+  font-style: normal;
 }
 
 .address-text {
